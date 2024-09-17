@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 def fetch_current_price(retry_delay=1.5):
     url = "https://public-api.birdeye.so/public/price?address=8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
-    headers = {"X-API-KEY": "bd7ce1e488d54b3fa341214f4aeb295c"}
+    headers = {"X-API-KEY": "replace with your key"}
 
     while True:
         try:

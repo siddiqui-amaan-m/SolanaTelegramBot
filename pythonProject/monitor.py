@@ -53,7 +53,7 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 #DCAK8tuwzsNowVA6eSojLHhHSDQMyECuSbu7KovyvYbm
-wallet_address = "AuAyY2E4P1bL6ZukwVxuCYiaHnM2WFr2aAYMv8xHZASf" #
+wallet_address = "replace with your key" #
 seen_signatures = set()
 WRAPPED_SOL_MINT = "So11111111111111111111111111111111111111112"
 Pool_raydium="675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"

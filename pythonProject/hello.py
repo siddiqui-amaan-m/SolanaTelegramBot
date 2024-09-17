@@ -15,13 +15,13 @@ import talib
 from typing import Final
 from telethon.sync import TelegramClient, events
 
-BOT_TOKEN: Final = '6860242707:AAEbmSXpAY08sUmtKOqvb-wjO2cNQuMvvCM'
-BOT_USERNAME: Final = '@readbirdeye_bot'
+BOT_TOKEN: Final = '6860242707:replace with your key-replace with your key'
+BOT_USERNAME: Final = '@replace with your key'
 
-phone = '+919949604746'
-username = 'Xhvv'
-API_ID = '22072625'
-API_HASH = '026474923fd20d447085bd6dc4cd939f'
+phone = '+replace with your key'
+username = 'replace with your key'
+API_ID = 'replace with your key'
+API_HASH = 'replace with your key'
 
 
 import telebot

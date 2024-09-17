@@ -14,13 +14,13 @@ import numpy as np
 from typing import Final
 from telethon.sync import TelegramClient, events
 
-TOKEN: Final = '6860242707:AAEbmSXpAY08sUmtKOqvb-wjO2cNQuMvvCM'
+TOKEN: Final = 'replace with your key:replace with your key-replace with your key'
 BOT_USERNAME: Final = '@readbirdeye_bot'
 
-phone = '+919949604746'
-username = 'Xhvv'
-API_ID = '22072625'
-API_HASH = '026474923fd20d447085bd6dc4cd939f'
+phone = '+replace with your key'
+username = 'replace with your key'
+API_ID = 'replace with your key'
+API_HASH = 'replace with your key'
 global user_address
 
 def get_user_input():
@@ -31,7 +31,7 @@ def get_user_input():
 def fetch_current_price(user_address):
 
     url = "https://public-api.birdeye.so/public/price?address="+user_address
-    headers = {"X-API-KEY": "bd7ce1e488d54b3fa341214f4aeb295c"}
+    headers = {"X-API-KEY": "replace with your key"}
 
     while True:
         try:
@@ -74,9 +74,9 @@ def write_to_csv(csv_filename, data):
 def buy_send_message(message_text):
         try:
             # Find the channel entity
-            CHANNEL_USERNAME = '-1001854688903'
-            CHANNEL_USERNAME2 = '-1002097266372'
-            token = '6860242707:AAEbmSXpAY08sUmtKOqvb-wjO2cNQuMvvCM'
+            CHANNEL_USERNAME = '-replace with your key'
+            CHANNEL_USERNAME2 = '-replace with your key'
+            token = 'replace with your key:replace with your key-replace with your key'
             url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={CHANNEL_USERNAME}&text={message_text}"
             url2 = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={CHANNEL_USERNAME2}&text={user_address}"
 
@@ -94,10 +94,10 @@ def buy_send_message(message_text):
 def sell_send_message(message_text):
         try:
             # Find the channel entity
-            CHANNEL_USERNAME = '-1001854688903'
-            CHANNEL_USERNAME2 = '-1002044138543'
+            CHANNEL_USERNAME = '-replace with your key'
+            CHANNEL_USERNAME2 = '-replace with your key'
 
-            token = '6860242707:AAEbmSXpAY08sUmtKOqvb-wjO2cNQuMvvCM'
+            token = 'replace with your key:replace with your key-replace with your key'
             url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={CHANNEL_USERNAME}&text={message_text}"
             url2 = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={CHANNEL_USERNAME2}&text={user_address}"
 

@@ -5,7 +5,7 @@ import csv
 from datetime import datetime, timedelta
 
 def fetch_current_price(retry_delay=0.2):
-    url = "https://api.dexscreener.com/latest/dex/tokens/6tfuMyZQWwHtnkjkdfQWdVMUBcQBLpN5FiooT4p2VMbV"
+    url = "https://api.dexscreener.com/latest/dex/tokens/replace with your key"
 
     while True:
         try:

@@ -6,8 +6,8 @@ import numpy as np
 from datetime import datetime
 
 def fetch_current_price(retry_delay=1.5):
-    url = "https://public-api.birdeye.so/public/price?address=2LmT5vqopEVneRBKSdi9LFPJQKLZ72U5VKHc93CJmw3f"
-    headers = {"X-API-KEY": "bd7ce1e488d54b3fa341214f4aeb295c"}
+    url = "https://public-api.birdeye.so/public/price?address=replace with your key"
+    headers = {"X-API-KEY": "replace with your key"}
 
     while True:
         try:
